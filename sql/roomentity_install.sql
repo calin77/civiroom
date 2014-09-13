@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS civicrm_room (
+  id int(10) unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Room Id',
+  label VARCHAR(20),
+  room_no VARCHAR(20), 
+  floor VARCHAR(20), 
+  ext VARCHAR(20))
+ ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
