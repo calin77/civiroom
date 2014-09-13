@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/addroom</path>
+    <page_callback>CRM_Roomentity_Form_Addroom</page_callback>
+    <title>Save a new room</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/room</path>
+    <page_callback>CRM_Roomentity_Page_Room</page_callback>
+    <title>Room</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>

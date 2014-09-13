@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="com.civicrm.roomentity" type="module">
+  <file>roomentity</file>
+  <name>Room entity</name>
+  <description>save room in the database </description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>calin onisie</author>
+    <email>calinonisie@yahoo.com</email>
+  </maintainer>
+  <releaseDate>2014-09-13</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Roomentity</namespace>
+  </civix>
+</extension>
