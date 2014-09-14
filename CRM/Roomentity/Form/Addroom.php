@@ -62,7 +62,6 @@ class CRM_Roomentity_Form_Addroom extends CRM_Core_Form {
             2 => $vals['room_no'],
             3 => $vals['floor'], 
             4 => $vals['ext'],
-                
    )));
     $query = "INSERT INTO civicrm_room (label, room_no, floor, ext) "
             . "VALUES ('$vals[label]', '$vals[room_no]', '$vals[floor]','$vals[ext]')";
